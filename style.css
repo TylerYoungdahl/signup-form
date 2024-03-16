@@ -1,0 +1,44 @@
+:root {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: rgb(241, 241, 241);
+}
+
+.content-container {
+  display: flex;
+}
+
+.background-img {
+  width: 30%;
+  height: 100vh;
+}
+
+.main-container {
+  /* height: 1000px; */
+}
+
+.register-form {
+  background-color: white;
+  padding: 1em;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.para {
+  font-weight: bold;
+}
+
+.register-btn {
+  background-color: #596d48;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  padding: 0.5em;
+}
+
+.register-btn:hover {
+  cursor: pointer;
+}
