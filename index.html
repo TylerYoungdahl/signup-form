@@ -8,11 +8,17 @@
   </head>
   <body>
     <div class="content-container">
-      <img
-        class="background-img"
-        src="img/photo-1585202900225-6d3ac20a6962.avif"
-        alt="leaves"
-      />
+      <div class="img-container">
+        <img
+          class="background-img"
+          src="img/photo-1585202900225-6d3ac20a6962.avif"
+          alt="leaves"
+        />
+        <div class="img-para-container">
+          <img class="odin-logo" src="img/odin-lined.png" alt="odin logo" />
+          ODIN
+        </div>
+      </div>
       <div class="main-container">
         <p class="para">
           This is not a real online service! You know you need something like
@@ -30,19 +36,21 @@
           </div>
           <div class="row2">
             <label for="firstName">EMAIL</label>
-            <input type="text" name="firstName" id="firstName" />
+            <input type="email" name="email" id="email" />
             <label for="lastName">PHONE NUMBER</label>
-            <input type="text" name="lastName" id="lastName" />
+            <input type="" name="lastName" id="lastName" />
           </div>
           <div class="row3">
             <label for="firstName">PASSWORD</label>
-            <input type="text" name="firstName" id="firstName" />
-            <label for="lastName">CONFIRM PASSWORD</label>
+            <input type="password" name="firstName" id="firstName" />
+            <label for="password">CONFIRM PASSWORD</label>
             <input type="text" name="lastName" id="lastName" />
           </div>
         </form>
         <button class="register-btn">Create Account</button>
-        <p>Already have an account? <a href="">Log in</a></p>
+        <p class="login-text">
+          Already have an account? <a class="login-link" href="#">Log in</a>
+        </p>
       </div>
     </div>
   </body>
